@@ -1,0 +1,1069 @@
+section.section2{
+    margin-top: 120px;
+    div.caption_content{
+        width: 93%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 44px;
+        margin-bottom: 20px;
+      div.caption_text{
+          h1{
+              color: white;
+              font-size: 34px;
+          }
+      }
+        button{
+            width: 180px;
+            height: 50px;
+            border: none;
+            outline: none;
+            background-color: red;
+            color: white;
+        }
+    }
+    div.container-fluid{
+        width: 95%;
+        div.card{
+            background-color:rgb(31, 29, 29);
+            border: none;
+            div.foton1{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-14.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+               
+                   
+                }
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                
+            }
+
+            div.foton2{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-15.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+               
+                   
+                }
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                
+            }
+            div.foton3{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-16.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+               
+                   
+                }
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                
+            }
+            div.foton4{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-17.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+               
+                   
+                }
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                
+            }
+            div.foton5{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-18.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+               
+                   
+                }
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                
+            }
+            div.foton6{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-19.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+               
+                   
+                }
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                
+            }
+            div.foton7{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-20.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+               
+                   
+                }
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                
+            }
+            div.foton8{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-21.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+               
+                   
+                }
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                
+            }
+            div.foton9{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-22.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+               
+                   
+                }
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                
+            }
+            div.foton10{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-13.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+               
+                   
+                }
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                
+            }
+
+
+
+
+
+            div.foto1{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-5.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+               
+                   
+                }
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                
+            }
+            div.foto2{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-6.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+                }
+            }
+            div.foto3{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-7.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+                }
+            }
+            div.foto4{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-8.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+                }
+            }
+            div.foto5{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-9.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+                }
+            }
+            div.foto6{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-4.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+                }
+            }
+            div.foto7{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-8.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{ font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+                }
+            }
+            div.foto8{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-11.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+                }
+            }
+            div.foto9{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-12.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+                    i{
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+                }
+            }
+            div.foto10{
+                width: 290px;
+                height: 170px;
+                // border: 1px solid red;
+                background-image: url(../image/asset-13.jpeg);
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: 1s;
+                div.icons{
+                    margin-left: 170px;
+                    margin-top: 20px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                div.playlogo{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: red;
+                    margin-left: 110px;
+                    margin-top: 50px;
+                    visibility: hidden;
+
+                    i{ 
+                        font-size: 30px;
+                        color: white;
+                        margin-left: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                &:hover{
+                    background-size: 120%;
+                    background-position: center;
+                    opacity: 0.6;
+                    div.playlogo{
+                        visibility: visible;
+                    }
+                }
+            }
+           
+        }
+       
+        div.card-body{
+            color: white;
+            border: none;
+            box-sizing: border-box;
+            padding-left: 0px;
+            p{
+                i{
+                    font-size: 5px;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                }
+                span{
+                    color: red;
+                }
+            }
+        }
+        .owl-dots{
+            display: none;
+        }
+        .owl-nav{
+
+            position: absolute;
+            
+            top:-127px;
+            font-size: 60px;
+            right: 0;
+            .owl-prev{
+                position: absolute;
+                right:1280px;
+                top:140px;
+                color: white;
+            }
+            .owl-next{
+                position: absolute;
+                top:140px;
+                color: white;
+            }
+
+            .owl-prev:hover{
+                background: none !important;
+                outline:none  !important;
+              
+               }
+               .owl-next:hover{
+                background: none !important;
+                outline:none  !important;
+               
+               }
+        }
+    }
+    
+}
+
+@media only screen and(max-width:800px) {
+    div.container-fluid{
+        margin-left: 20px;
+    }
+    div.foto1{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foto2{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foto3{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foto4{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foto5{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foto6{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foto7{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foto8{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foto9{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foto10{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foton1{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foto2{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foton3{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foton4{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foton5{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foton6{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foton7{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foton8{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foton9{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    div.foton10{
+        width: 420px !important;
+        height: 240px !important;
+    }
+    } 

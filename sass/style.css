@@ -1,0 +1,3016 @@
+body {
+  background-color: #1f1d1d;
+}
+
+.navbar {
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  margin-left: 40px;
+  width: 300px;
+  height: 50px;
+}
+
+.navbar-brand img {
+  margin-top: -15px;
+  width: 220px;
+  height: 70px;
+  opacity: 1 !important;
+}
+
+.navbar-nav {
+  margin-left: 290px;
+}
+
+.active {
+  color: red !important;
+}
+
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: red !important;
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.btn {
+  margin-right: 30px;
+  width: 120px;
+  background-color: red !important;
+  height: 45px;
+  border: none !important;
+}
+
+div.search_icon {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+i {
+  color: white;
+}
+
+.fa-user {
+  font-size: 26px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+form {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 760px) {
+  .navbar-brand {
+    margin: 0;
+  }
+  .navbar-nav {
+    margin-left: 0%;
+    margin-top: 20px;
+    background-color: black;
+  }
+  .nav-link {
+    color: black;
+  }
+}
+
+img {
+  opacity: 0.4;
+}
+
+div.carousel-caption {
+  width: 500px;
+  height: 600px;
+  margin-bottom: 50px;
+  margin-left: -150px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 0%;
+}
+
+div.carousel-caption button {
+  width: 180px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  margin-left: -320px;
+  margin-top: 20px;
+}
+
+div.carousel-caption #sp1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: -290px;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation: bounce;
+          animation: bounce;
+}
+
+div.carousel-caption h3 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: -140px;
+}
+
+div.carousel-caption p {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+div.carousel-caption div.mdb {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+div.carousel-caption div.mdb div.mini {
+  width: 40px;
+  height: 30px;
+  border: 1px solid white;
+}
+
+div.carousel-caption div.mdb i {
+  font-size: 14px;
+}
+
+div.carousel-caption div.logomini img {
+  margin-right: 10px;
+}
+
+img {
+  z-index: 1;
+}
+
+ul.gen-meta-after-excerpt li {
+  list-style: none;
+  margin-left: -180px;
+  margin-top: 20px;
+}
+
+ul.gen-meta-after-excerpt li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+ul.gen-meta-after-excerpt li.li2 {
+  font-weight: bold;
+  margin-left: -200px;
+}
+
+ul.gen-meta-after-excerpt li.li2 a {
+  margin-right: 15px;
+}
+
+ul.gen-meta-after-excerpt li.li1 {
+  margin-left: -250px;
+}
+
+ul.gen-meta-after-excerpt strong {
+  color: red;
+  margin-right: 20px;
+}
+
+div.photo {
+  position: absolute;
+  left: 650px;
+  bottom: 250px;
+  width: 570px;
+  height: 320px;
+  margin-top: -300px;
+  z-index: 4;
+  background-image: url(../image/asset-1.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+
+div.photo div.photo_logo {
+  width: 200px;
+  height: 100px;
+  margin-top: 100px;
+  margin-left: 170px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 60px;
+}
+
+div.photo div.photo_logo p {
+  margin-top: 20px;
+  color: white;
+  font-size: 24px;
+  margin-left: -30px;
+}
+
+div.photo div.photo_logo div.play_logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+div.photo div.photo_logo div.play_logo:hover {
+  border: 1px solid white;
+}
+
+div.photo div.photo_logo div.play_logo i {
+  font-size: 50px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+div.photo1 {
+  position: absolute;
+  left: 650px;
+  bottom: 250px;
+  width: 570px;
+  height: 320px;
+  margin-top: -300px;
+  z-index: 4;
+  background-image: url(../image/asset-3.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+div.photo1 div.photo_logo {
+  width: 200px;
+  height: 100px;
+  margin-top: 100px;
+  margin-left: 170px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 60px;
+}
+
+div.photo1 div.photo_logo p {
+  margin-top: 20px;
+  color: white;
+  font-size: 24px;
+  margin-left: -30px;
+}
+
+div.photo1 div.photo_logo div.play_logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+div.photo1 div.photo_logo div.play_logo:hover {
+  border: 1px solid white;
+}
+
+div.photo1 div.photo_logo div.play_logo i {
+  font-size: 50px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+div.photo2 {
+  position: absolute;
+  left: 650px;
+  bottom: 250px;
+  width: 570px;
+  height: 320px;
+  margin-top: -300px;
+  z-index: 4;
+  background-image: url(../image/asset-4.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+div.photo2 div.photo_logo {
+  width: 200px;
+  height: 100px;
+  margin-top: 100px;
+  margin-left: 170px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 60px;
+}
+
+div.photo2 div.photo_logo p {
+  margin-top: 20px;
+  color: white;
+  font-size: 24px;
+  margin-left: -30px;
+}
+
+div.photo2 div.photo_logo div.play_logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+div.photo2 div.photo_logo div.play_logo:hover {
+  border: 1px solid white;
+}
+
+div.photo2 div.photo_logo div.play_logo i {
+  font-size: 50px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+  div.carousel-caption {
+    display: none;
+  }
+}
+
+section.section2 {
+  margin-top: 120px;
+}
+
+section.section2 div.caption_content {
+  width: 93%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 44px;
+  margin-bottom: 20px;
+}
+
+section.section2 div.caption_content div.caption_text h1 {
+  color: white;
+  font-size: 34px;
+}
+
+section.section2 div.caption_content button {
+  width: 180px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+}
+
+section.section2 div.container-fluid {
+  width: 95%;
+}
+
+section.section2 div.container-fluid div.card {
+  background-color: #1f1d1d;
+  border: none;
+}
+
+section.section2 div.container-fluid div.card div.foton1 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-14.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foton1:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foton1:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foton1 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foton1 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foton1 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foton1 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foton2 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-15.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foton2:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foton2:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foton2 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foton2 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foton2 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foton2 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foton3 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-16.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foton3:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foton3:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foton3 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foton3 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foton3 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foton3 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foton4 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-17.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foton4:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foton4:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foton4 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foton4 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foton4 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foton4 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foton5 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-18.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foton5:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foton5:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foton5 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foton5 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foton5 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foton5 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foton6 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-19.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foton6:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foton6:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foton6 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foton6 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foton6 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foton6 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foton7 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-20.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foton7:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foton7:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foton7 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foton7 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foton7 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foton7 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foton8 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-21.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foton8:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foton8:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foton8 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foton8 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foton8 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foton8 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foton9 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-22.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foton9:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foton9:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foton9 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foton9 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foton9 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foton9 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foton10 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-13.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foton10:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foton10:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foton10 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foton10 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foton10 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foton10 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foto1 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-5.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foto1:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foto1:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foto1 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foto1 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foto1 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foto1 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foto2 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-6.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foto2 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foto2 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foto2 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foto2 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foto2:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foto2:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foto3 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-7.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foto3 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foto3 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foto3 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foto3 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foto3:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foto3:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foto4 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-8.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foto4 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foto4 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foto4 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foto4 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foto4:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foto4:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foto5 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-9.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foto5 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foto5 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foto5 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foto5 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foto5:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foto5:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foto6 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-4.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foto6 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foto6 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foto6 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foto6 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foto6:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foto6:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foto7 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-8.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foto7 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foto7 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foto7 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foto7 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foto7:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foto7:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foto8 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-11.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foto8 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foto8 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foto8 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foto8 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foto8:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foto8:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foto9 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-12.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foto9 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foto9 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foto9 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foto9 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foto9:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foto9:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card div.foto10 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-13.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.section2 div.container-fluid div.card div.foto10 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.section2 div.container-fluid div.card div.foto10 div.icons i {
+  font-size: 20px;
+}
+
+section.section2 div.container-fluid div.card div.foto10 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.section2 div.container-fluid div.card div.foto10 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.section2 div.container-fluid div.card div.foto10:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.section2 div.container-fluid div.card div.foto10:hover div.playlogo {
+  visibility: visible;
+}
+
+section.section2 div.container-fluid div.card-body {
+  color: white;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 0px;
+}
+
+section.section2 div.container-fluid div.card-body p i {
+  font-size: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+section.section2 div.container-fluid div.card-body p span {
+  color: red;
+}
+
+section.section2 div.container-fluid .owl-dots {
+  display: none;
+}
+
+section.section2 div.container-fluid .owl-nav {
+  position: absolute;
+  top: -127px;
+  font-size: 60px;
+  right: 0;
+}
+
+section.section2 div.container-fluid .owl-nav .owl-prev {
+  position: absolute;
+  right: 1280px;
+  top: 140px;
+  color: white;
+}
+
+section.section2 div.container-fluid .owl-nav .owl-next {
+  position: absolute;
+  top: 140px;
+  color: white;
+}
+
+section.section2 div.container-fluid .owl-nav .owl-prev:hover {
+  background: none !important;
+  outline: none  !important;
+}
+
+section.section2 div.container-fluid .owl-nav .owl-next:hover {
+  background: none !important;
+  outline: none  !important;
+}
+
+@media only screen and (max-width: 800px) {
+  div.container-fluid {
+    margin-left: 20px;
+  }
+  div.foto1 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foto2 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foto3 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foto4 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foto5 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foto6 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foto7 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foto8 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foto9 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foto10 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foton1 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foto2 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foton3 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foton4 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foton5 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foton6 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foton7 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foton8 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foton9 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.foton10 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+}
+
+section.section3 {
+  width: 92%;
+  height: 600px;
+  margin-top: 110px;
+  margin-left: 60px;
+}
+
+section.section3 #cart {
+  width: 100%;
+  height: 700px;
+}
+
+section.section3 #content {
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+}
+
+section.section3 #slider {
+  margin-top: -50px;
+  margin-left: -30px;
+  float: left;
+  padding: 30px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: absolute;
+  left: 1000px;
+}
+
+section.section3 .img {
+  width: 280px;
+  height: 140px;
+  display: block;
+  margin: 15px;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+section.section3 .img:hover {
+  opacity: 1;
+}
+
+section.section3 .active {
+  opacity: 1;
+  -webkit-filter: drop-shadow(0 0 0.75rem crimson);
+          filter: drop-shadow(0 0 0.75rem crimson);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 2, 0.52)), to(rgba(255, 19, 0, 0.73)));
+  background-image: linear-gradient(to bottom, rgba(255, 0, 2, 0.52), rgba(255, 19, 0, 0.73));
+}
+
+section.section3 span {
+  width: 290px;
+  height: 80px;
+  background-color: black;
+  opacity: 0.9;
+  z-index: 333;
+}
+
+section.section3 span:hover {
+  background-color: red;
+}
+
+section.section3 #up {
+  margin-top: -5px;
+  margin-left: 930px;
+}
+
+section.section3 #down {
+  margin-top: 530px;
+  margin-left: 930px;
+}
+
+section.section3 .chevron {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 30px 0;
+  position: absolute;
+}
+
+section.section3 .chevron2 {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  margin: 30px 0;
+  position: absolute;
+}
+
+section.section3 #show-img {
+  width: 103%;
+  margin-left: -20px;
+  height: 600px;
+  float: left;
+}
+
+section.section3 #show-img img {
+  width: 100%;
+  height: 100%;
+}
+
+section.section3 #show-img div.imgtext {
+  width: 600px;
+  height: 400px;
+  margin-top: -450px;
+  opacity: 1;
+  margin-left: 50px;
+}
+
+section.section3 #show-img div.imgtext h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  opacity: 1;
+}
+
+section.section3 #show-img div.imgtext p {
+  color: white;
+  opacity: 1;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+section.section3 #show-img div.imgtext button {
+  width: 180px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  opacity: 1;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  #slider {
+    margin-left: -1000px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  #slider img {
+    width: 80px !important;
+    height: 60px !important;
+    margin-top: -50px !important;
+  }
+  span {
+    width: 30px !important;
+    height: 40px !important;
+    background-color: none !important;
+    opacity: 0.9;
+    z-index: 333;
+  }
+  span:hover {
+    background-color: red;
+  }
+  .chevron {
+    display: none;
+  }
+  .chevron2 {
+    display: block  !important;
+  }
+  #left {
+    margin-top: -60px;
+    margin-left: -50px !important;
+  }
+  #right {
+    margin-top: -60px !important;
+    margin-left: 400px !important;
+  }
+  #show-img {
+    width: 450px;
+    height: 400px;
+  }
+  #show-img img {
+    width: 420px !important;
+    height: 400px !important;
+  }
+  div.imgtext {
+    width: 400px !important;
+    height: 400px;
+    -webkit-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+    margin-top: -300px !important;
+    margin-left: 0px !important;
+  }
+  div.imgtext h1 {
+    font-size: 24px !important;
+  }
+  div.imgtext p {
+    font-size: 16px !important;
+  }
+}
+
+section.sectioncopy {
+  margin-top: 120px;
+}
+
+section.sectioncopy div.caption_content {
+  width: 93%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 44px;
+  margin-bottom: 20px;
+}
+
+section.sectioncopy div.caption_content div.caption_text h1 {
+  color: white;
+  font-size: 34px;
+}
+
+section.sectioncopy div.caption_content button {
+  width: 180px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+}
+
+section.sectioncopy div.container-fluid {
+  width: 95%;
+}
+
+section.sectioncopy div.container-fluid div.card {
+  background-color: #1f1d1d;
+  border: none;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop1 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-10.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop1:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop1:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop1 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop1 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop1 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop1 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop2 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-12.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop2:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop2:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop2 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop2 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop2 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop2 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop3 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-29.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop3:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop3:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop3 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop3 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop3 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop3 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop4 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-30.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop4:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop4:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop4 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop4 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop4 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop4 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop5 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-31.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop5:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop5:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop5 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop5 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop5 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop5 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop6 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-24.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop6:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop6:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop6 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop6 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop6 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop6 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop7 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-32.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop7:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop7:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop7 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop7 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop7 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop7 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop8 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-33.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop8:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop8:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop8 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop8 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop8 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop8 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop9 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-34.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop9:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop9:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop9 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop9 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop9 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotop9 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom1 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-1.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom1:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom1:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom1 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom1 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom1 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom1 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom2 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-26.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom2 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom2 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom2 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom2 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom2:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom2:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom3 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-27.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom3 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom3 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom3 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom3 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom3:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom3:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-28.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-3.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom4:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom5 {
+  width: 290px;
+  height: 170px;
+  background-image: url(../image/asset-28.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom5 div.icons {
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom5 div.icons i {
+  font-size: 20px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom5 div.playlogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom5 div.playlogo i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom5:hover {
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.6;
+}
+
+section.sectioncopy div.container-fluid div.card div.fotom5:hover div.playlogo {
+  visibility: visible;
+}
+
+section.sectioncopy div.container-fluid div.card-body {
+  color: white;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 0px;
+}
+
+section.sectioncopy div.container-fluid div.card-body p i {
+  font-size: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+section.sectioncopy div.container-fluid div.card-body p span {
+  color: red;
+}
+
+section.sectioncopy div.container-fluid .owl-dots {
+  display: none;
+}
+
+section.sectioncopy div.container-fluid .owl-nav {
+  position: absolute;
+  top: -127px;
+  font-size: 60px;
+  right: 0;
+}
+
+section.sectioncopy div.container-fluid .owl-nav .owl-prev {
+  position: absolute;
+  right: 1280px;
+  top: 140px;
+  color: white;
+}
+
+section.sectioncopy div.container-fluid .owl-nav .owl-next {
+  position: absolute;
+  top: 140px;
+  color: white;
+}
+
+section.sectioncopy div.container-fluid .owl-nav .owl-prev:hover {
+  background: none !important;
+  outline: none  !important;
+}
+
+section.sectioncopy div.container-fluid .owl-nav .owl-next:hover {
+  background: none !important;
+  outline: none  !important;
+}
+
+@media only screen and (max-width: 760px) {
+  div.container-fluid {
+    margin-left: 20px;
+  }
+  div.fotom1 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotom2 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotom3 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotom4 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotom5 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotop1 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotop2 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotop3 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotop4 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotop5 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotop6 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotop7 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotop8 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotop8 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+  div.fotop9 {
+    width: 420px !important;
+    height: 240px !important;
+  }
+}
+
+section.section4 {
+  width: 92%;
+  height: 500px;
+  margin-top: 110px;
+  margin-left: 60px;
+}
+
+section.section4 img {
+  height: 500px;
+  opacity: 0.4;
+}
+
+section.section4 .carousel-caption {
+  position: absolute;
+  top: 60px !important;
+  width: 610px;
+  height: 400px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 0%;
+}
+
+section.section4 .carousel-caption h1.h0 {
+  margin-left: -150px;
+}
+
+section.section4 .carousel-caption h1.h0 span {
+  margin-left: 100px;
+}
+
+section.section4 .carousel-caption h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+section.section4 .carousel-caption h1 span {
+  margin-right: 400px;
+}
+
+section.section4 .carousel-caption p.p0 {
+  margin-left: -20px;
+  font-size: 19px;
+}
+
+section.section4 .carousel-caption p.p0 span {
+  margin-left: 30px;
+}
+
+section.section4 .carousel-caption div.minicontent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  height: 40px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.section4 .carousel-caption div.minicontent p {
+  font-size: 17px;
+}
+
+section.section4 .carousel-caption div.minicontent i {
+  font-size: 5px;
+  margin-top: 15px;
+}
+
+section.section4 .carousel-caption button {
+  width: 180px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  margin-right: 80px;
+}
+
+section.section4 button.active {
+  background-color: red !important;
+}
+
+@media only screen and (max-width: 800px) {
+  section.section4 {
+    margin-left: 20px;
+  }
+}
+
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 400px;
+}
+
+footer div.box1 {
+  width: 100%;
+  height: 320px;
+  background-color: #252525;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer div.box1 div.content {
+  width: 300px;
+  height: 300px;
+}
+
+footer div.box1 div.content h2 {
+  color: white;
+  margin-top: 50px;
+}
+
+footer div.box1 div.content ul {
+  float: left;
+  margin-right: 10px;
+}
+
+footer div.box1 div.content ul li::before {
+  content: ".";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 20px;
+}
+
+footer div.box1 div.content ul li {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+footer div.box1 div.content ul li:hover {
+  color: red;
+}
+
+footer div.box1 div.content div.logo {
+  width: 240px;
+  height: 60px;
+  margin-top: 50px;
+  background-image: url(../image/logo-1.png);
+  background-size: 100%;
+  background-position: center;
+}
+
+footer div.box1 div.content p {
+  color: white;
+  margin-top: 20px;
+}
+
+footer div.box1 div.content div.icon {
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer div.box1 div.content div.icon img {
+  width: 150px;
+  height: 40px;
+  opacity: 1;
+  margin-right: 20px;
+}
+
+footer div.box1 div.content div.icon i {
+  font-size: 24px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+footer div.box1 div.content div.icon i:hover {
+  color: red;
+}
+
+footer div.box2 {
+  width: 100%;
+  height: 80px;
+  background-color: red;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 20px;
+}
+
+footer div.box2 p {
+  margin-left: 500px;
+}
+
+footer div.box2 p a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  div.box1 {
+    height: 800px;
+  }
+  div.box2 {
+    margin-top: 990px;
+  }
+  div.box2 p {
+    margin-left: 0%;
+  }
+  div.box2 p a {
+    margin-left: -430px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

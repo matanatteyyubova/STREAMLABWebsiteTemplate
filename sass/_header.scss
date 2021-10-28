@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(31, 29, 29);
+}
+
+.navbar{
+    height: 90px;
+    background-color: rgba(0,0, 0, 0.1);
+}
+
+.navbar-brand{
+    margin-left: 40px;
+    width: 300px;
+    height: 50px;
+  
+    // border: 1px solid red;
+    img{
+        margin-top: -15px;
+        width: 220px;
+        height: 70px;
+        opacity: 1 !important;
+    }
+    // background-image: url(http://gentechtree.com/themes/streamlab/red-html/images/logo-1.png);
+    // background-size: 100%;
+    // background-position: center;
+    // background-repeat: no-repeat;
+}
+
+.navbar-nav{
+    margin-left: 290px;
+  
+}
+
+.nav-item {display: flex; width: 100px;}
+.nav-link{color: white !important; font-size: 16px; &:hover{color: red !important;}}
+.dropdown-item {color: white !important; }
+.btn{margin-right: 30px; width: 120px; background-color: red !important;height: 45px; border: none !important;}
+div.search_icon{width:40px;height:40px;background-color: red; border-radius: 50%;}
+i{color: white;}
+.fa-user{font-size:26px; margin-left: 10px; margin-top: 5px;}
+form{width: 300px; display:flex;justify-content: space-around;align-items: center;}
+
+
+
+
+
+
+
+@media only screen and(max-width:760px) {
+    .navbar-brand{margin: 0;}
+    .navbar-nav{
+        margin-left: 0%;
+        margin-top: 20px;
+        background-color: black;
+    }
+    .nav-link{color:black;}
+
+    
+}
